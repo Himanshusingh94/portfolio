@@ -53,10 +53,10 @@ div.bannerFcolumn{
 width:100%;
 }
 div.bannerScolumn{
-        width: 270px;
+        width: 300px;
         position: relative;
         left: 15px;
-        bottom: 68px;
+        bottom: 50px;
 }
 
 div.bannerContent button{
