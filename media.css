@@ -53,9 +53,9 @@ div.bannerFcolumn{
 width:100%;
 }
 div.bannerScolumn{
-        width: 300px;
+        width: 270px;
         position: relative;
-        left: 15px;
+        left: 25px;
         bottom: 50px;
 }
 
@@ -340,6 +340,12 @@ display:none;
         left: 24px;
         bottom: 1px;
 }
+ div.navButton{
+  display:none;
+ }
+ div.navList{
+  display:flex;
+ }
 div.bannerFcolumn{
 
 width:50%;
