@@ -1,0 +1,365 @@
+@media (min-width:1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+max-width:1170px;
+}
+}
+@media only screen and (min-width:200px) and (max-width:1024px){
+
+header.header1{
+box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+position: fixed;
+z-index: 2; 
+background-color:none;
+}
+
+ul.navList{
+ display:none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        align-items: center;
+}
+ul.navListafter{
+ display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        align-items: center;
+}
+
+div.navToggle{
+border-radius:3px;
+display:flex; 
+flex-direction: row;
+justify-content: flex-end;
+
+}
+
+button.navButton{
+display:flex;
+border:none;
+padding:5px;
+}
+
+div.bannerContent{
+}
+
+ div.contentButton{
+line-height:15px;
+ 
+}
+div.bannerFcolumn{
+
+width:100%;
+}
+div.bannerScolumn{
+        width: 270px;
+        position: relative;
+        left: 15px;
+        bottom: 68px;
+}
+
+div.bannerContent button{
+line-height:24px;
+}
+div.bannerContent h1{
+font-size : 32px;
+line-height:34px;
+margin:0px;
+}
+div.bannerContent span{
+font-size : 34px;
+font-weight:750;
+color:#7C00FE;
+}
+
+image.profile{
+width:99.9%;
+
+}
+div.About{
+text-underline-offset:10px;
+text-decoration-thickness:2px;
+font-size:30px;
+}
+div.aboutContent{
+font-size:15px;
+line-height: 20px;
+width: 94%;
+text-align: center;
+}
+div.aboutImagecontent{
+display:none;
+}
+div.Skill{
+text-underline-offset:10px;
+text-decoration-thickness:2px;
+font-size:30px;
+}
+
+div.skillContent {
+    width:100%;
+text-align:center;
+}
+div.projectOne span{
+font-size:18px;
+}
+div.projectOne h2{
+font-size:16px;
+}
+
+
+h1.projectName{
+color:#7c00fe;
+font-size: 22px;
+}
+
+div.projectOne{
+font-size: 14px;
+width:100%;
+text-align:center;
+
+}
+div.Contact{
+text-underline-offset:10px;
+text-decoration-thickness:2px;
+font-size:30px;
+}
+div.contactContainer{
+width:100%;
+}
+input.contactInput {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 0.50rem;
+  margin-bottom:1.6rem;
+}
+textarea.contactInput {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 0.70rem;
+  }
+
+input.contactButton {  
+  font-size: 16px;
+}
+
+p.footerCopy {
+  font-size: 16px;
+margin-top: 13px;
+
+}
+p.footerTitle {
+  font-size: 26px;
+  margin-bottom: 13px;
+}
+
+div.skillData {
+  font-size:14px;
+}
+
+h2.pSkill{
+font-size:20px;
+  }
+p.skillText {
+font-size:16px;
+
+ }
+
+
+span.skillIcon {
+  font-size: 1rem;
+ }
+/*
+
+a.icons{
+color:;
+font-size:20px;
+
+}
+a.icons:hover{
+font-size:32px;
+color:#7C00FE;
+}
+
+
+div.skillData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight:700;
+  padding: 0.5rem 1rem;
+  margin-bottom:15px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+span.skillIcon {
+  font-size: 2rem;
+  margin-right:30px;
+  color: #7c00fe;
+}
+span.skillNames {
+  display: flex;
+  align-items: center;
+}
+div.skillBar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color:#7c00fe;
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: 1px; 
+}
+div.skillHtml {
+  width: 95%;
+}
+div.skillCss {
+  width: 85%;
+}
+div.skillJs {
+  width: 65%;
+}
+div.skillC {
+  width: 75%;
+}
+
+div.skillCpp {
+  width: 55%;
+}
+
+
+
+div.Project{
+text-decoration: underline;
+text-underline-offset:12px;
+text-decoration-thickness:3px;
+color:#7C00FE;
+font-size:50px;
+}
+div.Contact{
+text-decoration: underline;
+text-underline-offset:12px;
+text-decoration-thickness:3px;
+color:#7C00FE;
+font-size:50px;
+}
+textarea.contactInput {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid ;
+  outline: none;
+  margin-bottom:1.5rem;
+}
+
+
+footer.footer {
+  background-color: hsl(224, 56%, 12%);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+div.footerSocial {
+  margin-bottom:2rem;
+}
+i.footerIcon {
+  padding:4px;
+  font-size: 2rem;
+  color: #fff;
+  margin:;
+}
+h1.projectName{
+color:#7c00fe;
+}
+div.projectOne{
+box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+a.projectLink{
+ display: block;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: auto;
+background-color:#7C00FE;
+color: white;
+border-radius:8px;
+text-align:center;
+}
+
+div.navToggle{
+border-radius:3px;
+display:none;
+}
+*/
+}
+
+
+/* Mobile Devices (up to 600px) 
+@media screen and (max-width: 600px) {
+  .header1 {
+    position: static;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bannerContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col-5, .col-4 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .aboutImage {
+    width: 80%;
+  }
+}
+*/
+/* Tablets (601px to 1024px) */
+@media screen and (min-width: 560px) and (max-width: 1024px) {
+  div.bannerScolumn{
+        width: 300px;
+        position: relative;
+        left: 24px;
+        bottom: 1px;
+}
+div.bannerFcolumn{
+
+width:50%;
+}
+
+div.bannerContent button{
+line-height:24px;
+}
+div.bannerContent h1{
+font-size : 32px;
+line-height:38px;
+margin-bottom:40px;
+}
+div.bannerContent span{
+font-size : 34px;
+font-weight:750;
+color:#7C00FE;
+}
+}
+/*
+/* Large Screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+  }*/
